@@ -14,7 +14,7 @@ O grunt-devtools é um plugin para ser utilizado juntamente com uma extensão do
 4. Execute a tarefa com: `grunt devtools`
 5. Abra o **Chrome Dev Tools** e clique na aba do Grunt. Pronto! Suas tarefas estarão acessíveis através do Chrome Dev Tools a partir de agora.
 
-## Atualizando de uma versão antiga
+## Atualizando
 
 * A atualização de uma extensão no Chrome ocorre automaticamente, mas você pode forçar uma atualização utilizando `chrome://extensions`
 
@@ -46,7 +46,7 @@ O grunt-devtools é um plugin para ser utilizado juntamente com uma extensão do
 
 ## Sugestões
 
-* Caso tenha algum problema, faça uma [atualização](grunt-devtools.md#atualizando-uma-versao-antiga) antes.
+* Caso tenha algum problema, faça uma [atualização](grunt-devtools.md#atualizando) antes.
 * Confira o [wiki](https://github.com/vladikoff/grunt-devtools/wiki) do projeto.
 * Se o problema persistir, [reporte](https://github.com/vladikoff/grunt-devtools/issues) o mesmo ou peça ajuda no canal `#grunt` do `freenode`.
 
