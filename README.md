@@ -5,6 +5,7 @@ Este repositório contém traduções para os plugins utilizados no Grunt.
 ## Relação de plugins traduzidos
 
 1. [grunt-rev](plugins/grunt-rev.md)
+2. [grunt-devtools](plugins/grunt-devtools.md)
 
 
 ## Contribuições
