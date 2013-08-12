@@ -44,13 +44,13 @@ e carregar a tarefa:
 ### Opções
 Os parâmetros para configuração, são:
 
-* **host** - o nome ou IP do seu servidor paa deploy
+* **host** - o nome ou IP do seu servidor para deploy
 * **port** - a porta em que o SFTP estará rodando
-* **authKey** - a chave pública para veriricar as sua credenciais
+* **authKey** - a chave pública para verificar as sua credenciais
 * **src** - o local onde os seus arquivos se encontram na sua máquina
 * **dest** - o caminho do servidor para onde os arquivos serão enviados
 * **exclusions** - um parâmetro opcional que permite a exclusão de arquivos e diretórios
-* **server_sep** - um parâmetro opcional que permite definir um separador caso esteja trabalhando em ambiente diferentes. Útil, se você fizer o deploy do Windows para Unix.
+* **server_sep** - um parâmetro opcional que permite definir um separador caso esteja trabalhando em ambientes diferentes. Útil, se você fizer o deploy do Windows para Unix.
 
 ## Parâmetros de autenticação
 
@@ -83,7 +83,7 @@ Caso, `keyLocation` não esteja especificado, `grunt-sftp-deploy` fará uma busc
 
 Você pode fornecer senhas para chaves criptografadas com o atributo `passphrase`.
 
-Dessa forma, podemos salvar quntas combinações de usuário / senha quisermos e procurá-los pelo valor `authKey` definido no arquivo de configuração do grunt onde o resto dos parâmetros-alvo estão definidos.
+Dessa forma, podemos salvar quantas combinações de usuário / senha quisermos e procurá-los pelo valor `authKey` definido no arquivo de configuração do grunt onde o resto dos parâmetros-alvo estão definidos.
 
 
 ## Dependências
