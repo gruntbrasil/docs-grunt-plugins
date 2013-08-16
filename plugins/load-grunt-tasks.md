@@ -1,10 +1,9 @@
 # load-grunt-tasks [![Build Status](https://secure.travis-ci.org/sindresorhus/load-grunt-tasks.png?branch=master)](http://travis-ci.org/sindresorhus/load-grunt-tasks)
 
-> Carrega múltiplas tarefas do Grunt usando *globbing patterns*
 
-Normalmente você teria que carregar cada tarefa, uma por uma, o que é desnecessariamente complicado.
+## Sobre
 
-Este módulo irá ler o `devDependencies` no seu package.json e carregar as tarefas que correspondem ao *pattern*.
+Este é um plugin que carrega múltiplas tarefas do Grunt usando *globbing patterns*. Normalmente você teria que carregar cada tarefa, uma por uma, o que pode se tornar complicado. Este módulo irá ler o `devDependencies` no seu `package.json` e carregar as tarefas que correspondem ao *pattern*.
 
 
 #### Antes
