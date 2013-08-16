@@ -1,6 +1,6 @@
 # grunt-sftp-deploy
 
-> Documentação oficial: [https://npmjs.org/package/grunt-sftp-deploy](https://npmjs.org/package/grunt-sftp-deploy)
+> Documentação oficial: [https://github.com/thrashr888/grunt-sftp-deploy](https://github.com/thrashr888/grunt-sftp-deploy)
 
 ## Sobre
 
@@ -89,3 +89,7 @@ Dessa forma, podemos salvar quantas combinações de usuário / senha quisermos 
 ## Dependências
 
 Esta tarefa foi construída, aproveitando a grande obra de Brian White e seu módulo [ssh2](https://github.com/mscdex/ssh2).
+
+## Licença
+
+MIT License • © Zoran Nakev
