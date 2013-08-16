@@ -33,7 +33,7 @@ O grunt-devtools é um plugin para ser utilizado juntamente com uma extensão do
 
 ## Configuração de Desenvolvimento
 
-### Chrome Extension
+### Extensão do Chrome
 
 * Carregue a extensão descompactada no diretório de extensão.
 
