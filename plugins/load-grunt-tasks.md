@@ -1,5 +1,6 @@
 # load-grunt-tasks [![Build Status](https://secure.travis-ci.org/sindresorhus/load-grunt-tasks.png?branch=master)](http://travis-ci.org/sindresorhus/load-grunt-tasks)
 
+> Documentação oficial: [https://github.com/sindresorhus/load-grunt-tasks](https://github.com/sindresorhus/load-grunt-tasks)
 
 ## Sobre
 
