@@ -1,4 +1,4 @@
-# Grunt Dev Tools
+# grunt-devtools
 
 > Documentação oficial: [https://github.com/vladikoff/grunt-devtools](https://github.com/vladikoff/grunt-devtools)
 
