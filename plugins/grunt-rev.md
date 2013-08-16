@@ -82,3 +82,7 @@ Alterar o algoritmo ou o comprimento dos nomes dos arquivos gerados. Note que a 
 	    }
 	  }
 	})
+
+## Licença
+
+MIT License • © Sebastiaan Deckers
