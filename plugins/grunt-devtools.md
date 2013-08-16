@@ -54,3 +54,7 @@ O grunt-devtools é um plugin para ser utilizado juntamente com uma extensão do
 
 * A extensão vai funcionar por até cinco instâncias do `grunt devtools` de uma vez (isso significa que se você gosta de trabalhar em mais de cinco projetos de cada vez, você terá que desligar a tarefa).
 * As tarefas de fundo desaparecem quando finalizadas.
+
+## Licença
+
+MIT License • © Vlad Filippov
