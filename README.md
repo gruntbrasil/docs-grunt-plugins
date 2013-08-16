@@ -7,6 +7,7 @@ Este repositório contém traduções para os plugins utilizados no Grunt.
 1. [grunt-rev](plugins/grunt-rev.md)
 2. [grunt-devtools](plugins/grunt-devtools.md)
 3. [grunt-sftp-deploy](plugins/grunt-sftp-deploy.md)
+4. [load-grunt-tasks](plugins/load-grunt-tasks.md)
 
 
 ## Contribuições
