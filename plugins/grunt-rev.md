@@ -1,6 +1,6 @@
-# Grunt Rev
+# grunt-rev [![Build Status](https://travis-ci.org/cbas/grunt-rev.png)](https://travis-ci.org/cbas/grunt-rev)
 
-> Documentação oficial: [https://npmjs.org/package/grunt-rev](https://npmjs.org/package/grunt-rev)
+> Documentação oficial: [https://github.com/cbas/grunt-rev](https://github.com/cbas/grunt-rev)
 
 ## Sobre
 
