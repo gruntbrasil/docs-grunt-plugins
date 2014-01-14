@@ -2,7 +2,7 @@
 
 > Documentação oficial: [https://github.com/gruntjs/grunt-cli](https://github.com/gruntjs/grunt-cli)
 
-Instale globalmente e poderá acessar os comendos do 'grunt' em qualquer local do seu sistema.
+Instale globalmente e poderá acessar os comandos do 'grunt' em qualquer local do seu sistema.
 
 ```shell
 npm install -g grunt-cli
