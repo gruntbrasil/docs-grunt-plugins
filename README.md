@@ -11,6 +11,7 @@ Este repositório contém traduções para os plugins utilizados no Grunt.
 5. [grunt-sftp-deploy](plugins/grunt-sftp-deploy.md)
 6. [grunt-uncss](plugins/grunt-uncss.md)
 7. [load-grunt-tasks](plugins/load-grunt-tasks.md)
+8. [grunt-cli](plugins/grunt-cli.md)
 
 
 ## Contribuições
