@@ -22,27 +22,18 @@ Para usar o **grunt-contrib-uglify** em seu projeto, é preciso digitar o comand
 No arquivo **Gruntfile** do seu projeto, adicione uma seção nomeada como **uglify** para que os objetos sejam passados dentro do método grunt.initConfig(). Confira um exemplo abaixo.
 
   	grunt.initConfig({
+	    uglify : {
+	      options : {
+	        mangle : false
+	      },
 
-    uglify : {
-      options : {
-        mangle : false
-      },
-
-      my_target : {
-        files : {
-          'assets/js/main.js' : [ 'assets/_js/scripts.js' ]
-        }
-      }
-    }
-    
-    // Plugins do Grunt
-  	grunt.loadNpmTasks( 'grunt-contrib-uglify' );
-
-
-    // Tarefas que serão executadas
-    grunt.registerTask( 'default', [ 'uglify' ] );
-
-  });
+	      my_target : {
+	        files : {
+	          'assets/js/main.js' : [ 'assets/_js/scripts.js' ]
+	        }
+	      }
+	    }
+  	});
 
 
 ## Opções
