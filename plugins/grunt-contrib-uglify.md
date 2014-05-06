@@ -10,7 +10,7 @@ O grunt-contrib-uglify é um plugin para minificar seus arquivos. Pode se dizer 
 
 ## Como aplicá-lo?
 
-> Minificação
+> MINIFICAÇÃO
 
 Para usar o **grunt-contrib-uglify** em seu projeto, é preciso digitar o comando abaixo via Shell.
 
