@@ -1,4 +1,7 @@
-# grunt-contrib-sass - v0.7.3 [https://travis-ci.org/gruntjs/grunt-contrib-sass.png]
+
+
+[![CakePHP](https://travis-ci.org/gruntjs/grunt-contrib-sass.png)](http://www.cakephp.org)
+# grunt-contrib-sass - v0.7.3 [![teste](https://travis-ci.org/gruntjs/grunt-contrib-sass.png)]
 
 > Documentação para Referência: [https://npmjs.org/package/grunt-contrib-sass](https://npmjs.org/package/grunt-contrib-sass)
 
