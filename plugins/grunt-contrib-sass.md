@@ -1,4 +1,4 @@
-# grunt-contrib-sass - Versão 3.3
+# grunt-contrib-sass - versão 3.3
 
 > Documentação para Referência: [https://npmjs.org/package/grunt-contrib-sass](https://npmjs.org/package/grunt-contrib-sass)
 
@@ -44,16 +44,17 @@ Abaixo segue algumas opções bem interessantes que precisavam ser comentadas.
 
 ### Debug SASS
 
-**Code:** `debugInfo` - Ultilizamos essas configurações para ativarmos o debug do SASS por meio do <a href="https://addons.mozilla.org/en-US/firefox/addon/firesass-for-firebug/">fireSASS</a><br>
+Ultilizamos essas configurações para ativarmos o debug do SASS por meio do <a href="https://addons.mozilla.org/en-US/firefox/addon/firesass-for-firebug/">fireSASS</a><br>
+
+**Code:** `debugInfo`
 
 ### SourceMap
 
-**Code:** `sourcemap` - ativarmos sourcemap para os browsers que suportam essa tecnologia. <br/>
+Ativarmos sourcemap para os browsers que suportam essa tecnologia. <br/>
+
+**Code:** `sourcemap`
 
 > Lembrando que o processamento fica mais lento utilizando essas opções.
-
-
-## Artigos
 
 ## Site Oficial
 
