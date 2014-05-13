@@ -16,7 +16,7 @@ Para usar o **grunt-contrib-sass** em seu projeto, é preciso digitar o script a
 
 `npm install grunt-contrib-sass --save-dev`
 
-OBS: Se seu terminal for um Mac OS X, por padrão já vem o Ruby instalado, porém se for Windows é preciso instalar o Ruby e os recursos de SASS. Para instalar esses recursos é preciso: se for root `gem install sass` ou usar `sudo gem install sass`. 
+OBS: Se seu terminal for um Mac OS X, por padrão já vem o Ruby instalado, porém se for Windows é preciso instalar o Ruby e os recursos de SASS. Para instalar esses recursos é preciso: <br>se for root `gem install sass` ou usar `sudo gem install sass`. 
 
 ## Visão Global
 
