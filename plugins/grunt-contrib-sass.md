@@ -1,12 +1,11 @@
-# grunt-contrib-sass - versão 3.3
+# grunt-contrib-sass - v0.7.3 [https://travis-ci.org/gruntjs/grunt-contrib-sass.png]
 
 > Documentação para Referência: [https://npmjs.org/package/grunt-contrib-sass](https://npmjs.org/package/grunt-contrib-sass)
 
 
 ## Sobre
 
-O **grunt-contrib-sass** é nada mais do que um plugin de pré-processador para dar mais facilidade no desenvolvimento de seu projeto, permitindo criação de variáveis, declaração de condições e dentre outros benefícios. Com esse plugin o pré-processador a ser ultilizado é o **SASS**. Existem outros pré-processadores usados no GruntJS como **LESS**, **Stylus**, **Jade** e entre outros que veremos mais a frente.
-
+Sass é um pré-processador que acrescenta regras aninhadas, variáveis, funções, herança, seletor e muito mais a CSS. Arquivos Sass compila o CSS padrão para usar em seu site ou aplicativo. O **grunt-contrib-sass** é nada mais do que um plugin do pré-processador que vai permitir você usar o SASS para suas tarefas específicas.
 
 ## Como aplicá-lo?
 
@@ -16,27 +15,44 @@ Para usar o **grunt-contrib-sass** em seu projeto, é preciso digitar o script a
 
 `npm install grunt-contrib-sass --save-dev`
 
-OBS: Se seu terminal for um Mac OS X, por padrão já vem o Ruby instalado, porém se for Windows é preciso instalar o Ruby e os recursos de SASS. Para instalar esses recursos é preciso: <br>se for root `gem install sass` ou usar `sudo gem install sass`. 
+OBS: Esta tarefa exige que você tenha Ruby e Sass instalado. Se você está no OS X ou Linux, você provavelmente já tem o Ruby instalado; testar com `ruby-v` em seu terminal. Quando você tiver confirmado que você tem o Ruby instalado, use `gem install sass` ou `sudo gem install sass` 
 
 ## Visão Global
 
 No arquivo **Gruntfile** do seu projeto, adicione uma seção nomeada como **sass** para que os objetos sejam passados dentro do método grunt.initConfig(). Confira um exemplo abaixo.
 
+> Configuração
 
-  	grunt.initConfig({
-		sass : {
-		    dist : {
-		        files : {
-		            'dev/css/main.css': 'dev/sass/main-sass.scss'
-		        },
-		        options : {
-		            debugInfo : true,
-		            sourcemap : true
-		        }
-		    }
-		}
-  	});
+	`grunt.initConfig({
+	  sass: {                              
+	    dist: {                            
+	      options: {                       
+	        style: 'expanded'
+	      },
+	      files: {                         
+	        'main.css': 'main.scss',      
+	        'widgets.css': 'widgets.scss'
+	      }
+	    }
+	  }
+	});
 
+	grunt.loadNpmTasks('grunt-contrib-sass');
+
+	grunt.registerTask('default', ['sass']);`
+
+
+> Compilação e Minificação
+
+	`grunt.initConfig({
+	  sass: {
+	    dist: {
+	      files: {
+	        'main.css': 'main.scss'
+	      }
+	    }
+	  }
+	});`
 
 ## Opções
 
@@ -47,12 +63,16 @@ Abaixo segue algumas opções bem interessantes que precisavam ser comentadas.
 Ultilizamos essas configurações para ativarmos o debug do SASS por meio do <a href="https://addons.mozilla.org/en-US/firefox/addon/firesass-for-firebug/">fireSASS</a><br>
 
 **Code:** `debugInfo`
+**Tipo:** `boolean`
+**Padrão:** `false`
 
 ### SourceMap
 
 Ativarmos sourcemap para os browsers que suportam essa tecnologia. <br/>
 
 **Code:** `sourcemap`
+**Tipo:** `boolean`
+**Padrão:** `false`
 
 > Lembrando que o processamento fica mais lento utilizando essas opções.
 
