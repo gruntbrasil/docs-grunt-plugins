@@ -5,7 +5,7 @@
 
 ## Sobre
 
-O **grunt-contrib-sass** é nada mais do que um plugin de pré-processador para dar mais facilidade no desenvolvimento de seu projeto, permitindo criação de variáveis, declaração de condições e dentre outros benefícios. Com esse plugin o pré-processador a ser ultilizado é o **SASS**. Existem outros plugins de pré-processadores usados no GruntJS como **LESS**, **Stylus**, **Jade** e entre outros que veremos mais a frente.
+O **grunt-contrib-sass** é nada mais do que um plugin de pré-processador para dar mais facilidade no desenvolvimento de seu projeto, permitindo criação de variáveis, declaração de condições e dentre outros benefícios. Com esse plugin o pré-processador a ser ultilizado é o **SASS**. Existem outros pré-processadores usados no GruntJS como **LESS**, **Stylus**, **Jade** e entre outros que veremos mais a frente.
 
 
 ## Como aplicá-lo?
