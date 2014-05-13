@@ -63,16 +63,16 @@ Abaixo segue algumas opções bem interessantes que precisavam ser comentadas.
 
 Ultilizamos essas configurações para ativarmos o debug do SASS por meio do <a href="https://addons.mozilla.org/en-US/firefox/addon/firesass-for-firebug/">fireSASS</a><br>
 
-**Code:** `debugInfo`
-**Tipo:** `boolean`
+**Code:** `debugInfo` <br>
+**Tipo:** `boolean` <br>
 **Padrão:** `false`
 
 ### SourceMap
 
 Ativarmos sourcemap para os browsers que suportam essa tecnologia. <br/>
 
-**Code:** `sourcemap`
-**Tipo:** `boolean`
+**Code:** `sourcemap` <br>
+**Tipo:** `boolean` <br>
 **Padrão:** `false`
 
 > Lembrando que o processamento fica mais lento utilizando essas opções.
