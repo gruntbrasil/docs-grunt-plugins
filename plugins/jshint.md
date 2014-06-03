@@ -38,12 +38,14 @@ No arquivo **Gruntfile** do seu projeto, adicione uma seção nomeada como **jsh
 
 Abaixo segue algumas opções bem interessantes que precisavam ser comentadas.
 
-### JSHintrc: Indicaremos ao plugin onde colocamos o nosso arquivo '.jshintrc'. Esse arquivo é um JSON com todas as configurações que escolhemos para validar os nossos arquivos JS. 
+### JSHintrc: 
+Indicaremos ao plugin onde colocamos o nosso arquivo '.jshintrc'. Esse arquivo é um JSON com todas as configurações que escolhemos para validar os nossos arquivos JS. 
 
 `jshintrc`
 
 
-### Reporter: Utilizaremos o plugin jshint-stylish para deixarmos o relatório de erros do JSHint mais bonito e organizado.
+### Reporter: 
+Utilizaremos o plugin jshint-stylish para deixarmos o relatório de erros do JSHint mais bonito e organizado.
 
 `reporter`
 
