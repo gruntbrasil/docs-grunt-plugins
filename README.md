@@ -13,7 +13,7 @@ Este repositório contém traduções para os plugins utilizados no Grunt.
 7. [load-grunt-tasks](plugins/load-grunt-tasks.md)
 8. [grunt-contrib-uglify](plugins/grunt-contrib-uglify.md)
 9. [grunt-contrib-sass](plugins/grunt-contrib-sass.md)
-
+10. [JSHint](plugins/jshint.md)
 
 ## Contribuições
 
