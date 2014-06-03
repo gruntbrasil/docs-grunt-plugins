@@ -53,4 +53,4 @@ Utilizaremos o plugin jshint-stylish para deixarmos o relatório de erros do JSH
 ## Comunidades
 
 * [Repositório Oficial](https://www.npmjs.org/package/grunt-contrib-jshint)
-* [Artigo - Qualidade e código em JavaScript](http://tableless.com.br/qualidade-codigo-javascript/)
+* [Artigo - Qualidade de código em JavaScript](http://tableless.com.br/qualidade-codigo-javascript/)
