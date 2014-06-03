@@ -6,7 +6,7 @@
 
 ## Sobre
 
-JSHint é um Ferramenta de validação de arquivos JavaScriipt. É importante ressaltar que esse tipo de ferramenta não garante que seu código está funcionando, que a lógica está correta, garante apenas a presença de boas práticas de desenvolvimento.
+JSHint é uma ferramenta de validação de arquivos JavaScriipt. É importante ressaltar que esse tipo de ferramenta não garante que seu código está funcionando, que a lógica está correta, garante apenas a presença de boas práticas de desenvolvimento.
 
 
 ## Como aplicá-lo?
