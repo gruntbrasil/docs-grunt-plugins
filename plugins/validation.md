@@ -24,7 +24,7 @@ No arquivo **Gruntfile** do seu projeto, adicione uma seção nomeada como **val
 
 > Configuração
 
-	`validation : {
+	validation : {
 	    options : {
 	        reset : true,
 	        reportpath : false
@@ -36,7 +36,7 @@ No arquivo **Gruntfile** do seu projeto, adicione uma seção nomeada como **val
 
 	grunt.loadNpmTasks('validation');
 
-	grunt.registerTask('default', ['validation']);`
+	grunt.registerTask('default', ['validation']);
 
 
 ## Opções
@@ -48,7 +48,4 @@ No arquivo **Gruntfile** do seu projeto, adicione uma seção nomeada como **val
 ## Site Oficial
 
 * [GruntJS](http://gruntjs.com/)
-
-## Comunidades
-
 * [Repositório Oficial](https://www.npmjs.org/package/grunt-html-validation)
