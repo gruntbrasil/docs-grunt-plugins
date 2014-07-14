@@ -14,6 +14,8 @@ Este repositório contém traduções para os plugins utilizados no Grunt.
 8. [grunt-contrib-uglify - v0.4.0](plugins/grunt-contrib-uglify.md)
 9. [grunt-contrib-sass - v0.7.3](plugins/grunt-contrib-sass.md)
 10. [JSHint - v0.10.0](plugins/jshint.md)
+11. [Validation W3C - v0.1.18](plugins/validation.md)
+
 
 ## Contribuições
 
