@@ -16,7 +16,6 @@ Este repositório contém traduções para os plugins utilizados no Grunt.
 10. [JSHint - v0.10.0](plugins/jshint.md)
 11. [Validation W3C - v0.1.18](plugins/validation.md)
 
-
 ## Contribuições
 
 Faça um [Pull Request](https://github.com/gruntbrasil/docs-grunt-plugins/pulls) para enviar traduções de plugins para o Grunt ou deixe suas sugestões para traduções de outros plugins em [Issues](https://github.com/gruntbrasil/docs-grunt-plugins/issues/1).
