@@ -15,6 +15,7 @@ Este repositório contém traduções para os plugins utilizados no Grunt.
 9. [grunt-contrib-sass - v0.7.3](plugins/grunt-contrib-sass.md)
 10. [JSHint - v0.10.0](plugins/jshint.md)
 11. [validation - v0.1.18](plugins/validation.md)
+12. [grunt-contrib-imagemin v0.8.0](plugins/imagemin.md)
 
 ## Contribuições
 
