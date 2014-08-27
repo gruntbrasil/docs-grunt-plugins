@@ -6,7 +6,7 @@
 
 ## Sobre
 
-O **grunt-contrib-imagemin** pode dizer que é o tipo de plugin que vai auxiliar na otimização, não só de imagens, mas sim de toda aplicação que vocês está desenvolvendo. ImageMin serve para deixar as imagens de sua aplicação otimizadas, aumentando a performance e uma melhor funcionalidade de toda sua aplicação.
+O **grunt-contrib-imagemin** é um plugin muito indicado para otimizar as imagens de um projeto que você quer criar. Para quem não sabe, otimização é uma técnica usada no desenvolvimento que torna o site mais legível aos mecanismos de busca. Então, esse plugin faz com que as imagens no formato PNG, GIF e JPEG sejam otimizadas, deixando até um pouco mais leve.
 
 ## Como aplicá-lo?
 
