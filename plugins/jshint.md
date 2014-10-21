@@ -6,7 +6,7 @@
 
 ## Sobre
 
-JSHint é uma ferramenta de validação de arquivos JavaScriipt. É importante ressaltar que esse tipo de ferramenta não garante que seu código está funcionando, que a lógica está correta, garante apenas a presença de boas práticas de desenvolvimento.
+JSHint é uma ferramenta de validação de arquivos JavaScript. É importante ressaltar que esse tipo de plugin não garante que seu código está funcionando, que a lógica está correta, garante apenas a presença de boas práticas de desenvolvimento.
 
 
 ## Como aplicá-lo?
@@ -15,7 +15,7 @@ JSHint é uma ferramenta de validação de arquivos JavaScriipt. É importante r
 
 Para usar o **JSHint** em seu projeto, é preciso digitar o script abaixo via linha de comando.
 
-`npm install grunt-contrib-watch --save-dev`
+`npm install grunt-contrib-jshint --save-dev`
 
 
 ## Visão Global
@@ -24,15 +24,9 @@ No arquivo **Gruntfile** do seu projeto, adicione uma seção nomeada como **jsh
 
 > Configuração
 
-	`jshint : {
-	    options : {
-	        jshintrc : '.jshintrc',
-	        reporter : require('jshint-stylish')
-	    },
-	    files : {
-	        src : ['Gruntfile.js']
-	    }
-	}`
+	`jshint: {
+    	all: ['Gruntfile.js', 'app/scripts/**/*.js']
+  	},`
 
 ## Opções
 

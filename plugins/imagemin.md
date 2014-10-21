@@ -14,9 +14,9 @@ O **grunt-contrib-imagemin** é um plugin muito indicado para otimizar as imagen
 
 Para usar o **grunt-contrib-imagemin** em seu projeto, é preciso digitar o script abaixo via linha de comando.
 
-`npm install grunt-contrib-imagemin`
+`npm install grunt-contrib-imagemin --save-dev`
 
-OBS: Esta tarefa exige que você tenha NODE instalado para baixar os pacotes NPM's.
+OBS: Esta tarefa exige que você tenha NODE instalado.
 
 ## Usando o Plugin
 
