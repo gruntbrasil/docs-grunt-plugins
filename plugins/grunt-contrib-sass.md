@@ -6,7 +6,7 @@
 
 ## Sobre
 
-Sass é um pré-processador que acrescenta regras aninhadas, variáveis, funções, herança, seletor e muito mais a CSS. Arquivos Sass compila o CSS padrão para usar em seu site ou aplicativo. O **grunt-contrib-sass** é nada mais do que um plugin do pré-processador que vai permitir você usar o SASS para suas tarefas específicas.
+Sass é um pré-processador que acrescenta regras aninhadas, variáveis, funções, herança, seletor e muito mais ao CSS. Arquivos Sass compila o CSS padrão para usar em seu site ou aplicativo. O **grunt-contrib-sass** é nada mais do que um plugin do pré-processador que vai permitir você usar o SASS para suas tarefas específicas. Podendo ainda usar opções para retornar o arquivo compilado já minificado.
 
 ## Como aplicá-lo?
 
@@ -24,7 +24,7 @@ No arquivo **Gruntfile** do seu projeto, adicione uma seção nomeada como **sas
 
 > Configuração
 
-	`grunt.initConfig({
+	grunt.initConfig({
 	  sass: {                              
 	    dist: {                            
 	      options: {                       
@@ -45,12 +45,13 @@ No arquivo **Gruntfile** do seu projeto, adicione uma seção nomeada como **sas
 
 > Compilação e Minificação
 
-	`grunt.initConfig({
+	grunt.initConfig({
 	  sass: {
 	    dist: {
-	      files: {
-	        'main.css': 'main.scss'
-	      }
+	    	options : { style : 'compressed'},
+	      	files: {
+	        	'main.css': 'main.scss'
+	      	}
 	    }
 	  }
 	});`

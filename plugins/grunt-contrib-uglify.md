@@ -5,8 +5,7 @@
 
 ## Sobre
 
-O grunt-contrib-uglify é um plugin para minificar seus arquivos. Pode se dizer que foi feito para facilitar e dar uma agilizada em seu projeto. Com **grunt-contrib-uglify** você pode estar minificando arquivos como: **CSS**, **JS** e até **HTML**. 
-
+O grunt-contrib-uglify é um plugin muito usado para minificar arquivos, havendo a necessidade do mesmo.
 
 ## Como aplicá-lo?
 

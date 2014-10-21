@@ -6,7 +6,7 @@
 
 ## Sobre
 
-O **validation** é um plugin com grandes vantagens e é o que todos nós esperávamos. Ele trabalha validando o seu código HTML de acordo com todas as especificações exigidas pela Organização W3C, ou seja, 100% padronizada.
+O **validation** é um plugin com grandes vantagens e é o que todos nós esperávamos. Ele trabalha validando o seu código HTML de acordo com as especificações exigidas pela Organização W3C, ou seja, 100% padronizado.
 
 ## Como aplicá-lo?
 
